@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.std_logic_unsigned.all;
 
-entity asyncart_demo is
+entity asyncart_demo_1d is
     port (
         --GCLK : in std_logic; -- 100 MHz input clock
         BTNC : in std_logic; -- 100 MHz input clock
@@ -20,7 +20,7 @@ entity asyncart_demo is
     );
 end entity;
 
-architecture demo_hw of asyncart_demo is
+architecture demo_hw of asyncart_demo_1d is
 
 
   component asyncart_source
